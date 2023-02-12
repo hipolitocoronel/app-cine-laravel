@@ -22,7 +22,7 @@
         @yield('content')
     </div>
 
-    <footer class="border-top border-secondary fixed-bottom">
+    <footer class="bg-black border-top border-secondary fixed-bottom">
         <!-- Copyright -->
         <div class="text-center p-2 text-white">
             <a class="text-warning " href="https://mdbootstrap.com/">©CINEPOLIS</a>
