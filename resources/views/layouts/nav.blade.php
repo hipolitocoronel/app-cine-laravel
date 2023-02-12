@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-md container" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="{{ route('home') }}">CINEPOLIS</a>
+        <a class="navbar-brand fw-bold py-0" href="{{ route('home') }}">
+            <img src="{{ asset('images/brand.png') }}" style="transform: scale(0.7)">
+        </a>
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">

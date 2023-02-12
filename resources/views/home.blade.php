@@ -1,13 +1,13 @@
 @extends('layouts.template')
 
-@section('title', 'Cinepolis')
+@section('title', 'Cinepolis | Magia en las pantallas grandes')
 
 @section('content')
     <header class="bg-black">
         @include('layouts.nav')
         @include('layouts.carrousel')
     </header>
-    <section class="container my-3">
+    <section class="container mt-3">
         <select class="form-select bg-black fw-bold text-white select-movie" aria-label="Default select example"
             data-bs-theme="dark">
             <option selected>SELECCIONE UNA PELÍCULA</option>
@@ -16,7 +16,7 @@
             <option value="3">Three</option>
         </select>
 
-        <section class="my-5">
+        <div class="my-5">
             <h2 class="text-white fs-5 fw-light mb-3">PELÍCULAS</h2>
 
             <div class="row row-cols-2 row-cols-md-6 g-4">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
 
 @endsection
