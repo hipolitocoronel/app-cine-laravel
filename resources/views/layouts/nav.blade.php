@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg container" data-bs-theme="dark">
+<nav class="navbar navbar-expand-md container" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="{{ route('home') }}">CINEPOLIS</a>
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
@@ -17,8 +17,11 @@
                 <li class="nav-item mx-2">
                     <a class="nav-link" href="#">PRÓXIMOS ESTRENOS</a>
                 </li>
+                <li class="nav-item mx-2 nav-login-btn-mobile">
+                    <a class="nav-link" href="{{ route('login') }}">TU CUENTA</a>
+                </li>
             </ul>
         </div>
-        <a class="btn btn-outline-light" href="{{ route('login') }}">Tu cuenta</a>
+        <a class="btn btn-outline-light nav-login-btn btn-sm" href="{{ route('login') }}">Tu cuenta</a>
     </div>
 </nav>
