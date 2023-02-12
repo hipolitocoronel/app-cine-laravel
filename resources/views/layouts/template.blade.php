@@ -12,14 +12,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a942f5af8a.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="{{ asset('images/logo2.jpg') }}" />
     <title> @yield('title')</title>
 </head>
 
 <body class="bg-black">
-    @yield('content')
+    <div class="main-content">
+        @yield('content')
+    </div>
 
-    <footer class="bg-black border-top border-secondary fixed-bottom">
+    <footer class="border-top border-secondary fixed-bottom">
         <!-- Copyright -->
         <div class="text-center p-2 text-white">
             <a class="text-warning " href="https://mdbootstrap.com/">©CINEPOLIS</a>

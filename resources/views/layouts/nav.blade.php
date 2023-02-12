@@ -24,6 +24,6 @@
                 </li>
             </ul>
         </div>
-        <a class="btn btn-outline-light nav-login-btn btn-sm" href="{{ route('login') }}">Tu cuenta</a>
+        <a class="btn btn-outline-light nav-login-btn btn-sm" href="{{ route('login') }}">INGRESAR</a>
     </div>
 </nav>

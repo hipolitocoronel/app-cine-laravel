@@ -1,5 +1,12 @@
 *{
   font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content{
+  margin-bottom: 130px;
 }
 
 .select-movie{
@@ -12,6 +19,11 @@
 
 .form-login{
   max-width: 500px;
+}
+
+footer{
+  background: rgb(0, 0, 0, .65);
+  backdrop-filter: blur(3px);
 }
 
 @media (max-width: 768px){
