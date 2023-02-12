@@ -2,3 +2,31 @@
   font-family: 'Open Sans';
 }
 
+.select-movie{
+  max-width: 400px;
+}
+
+.nav-login-btn-mobile{
+  display: none;
+}
+
+.form-login{
+  max-width: 500px;
+}
+
+
+@media (max-width: 768px){
+  .nav-login-btn{
+    display: none;
+  }
+  .nav-login-btn-mobile{
+    display: unset;
+  }
+  .form-login{
+    padding: 0 15px;
+  }
+  .form-login > button{
+    width: 100%;
+  }
+  
+}
